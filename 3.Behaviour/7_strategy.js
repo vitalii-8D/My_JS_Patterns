@@ -4,7 +4,8 @@
    после чего алгоритмы можно взаимозаменять
 прямо во время исполнения программы.*/
 
-//
+// Класу Commute все рівно що приймати в себе, бо
+// впринципі інтерфейс то однаковий
 class Vehicle {
    travelTime() {
       return this.timeTaking
@@ -17,14 +18,12 @@ class Bus extends Vehicle {
       this.timeTaking = 10
    }
 }
-
 class Taxi extends Vehicle {
    constructor() {
       super();
       this.timeTaking = 5
    }
 }
-
 class Car extends Vehicle {
    constructor() {
       super();
