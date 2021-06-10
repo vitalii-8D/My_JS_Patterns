@@ -27,7 +27,7 @@ class CarFactory {
          return candidate
       }
 
-      // Якщо можелі не існує - робимо нову машинку
+      // Якщо моделі не існує - робимо нову машинку
       const newCar = new Car(model, price)
       this.cars.push(newCar)
 

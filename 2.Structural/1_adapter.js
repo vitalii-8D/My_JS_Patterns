@@ -42,7 +42,7 @@ class CalcAdapter {
    operations(t1, t2, operation) {
       switch (operation) {
          case 'add':
-            // Хех, а тут викликаємо методи з нового
+            // Хех, а тут викликаємо методи з нового  (типу працюємо з новим функціоналом на старому синтаксису)
             return this.calc.add(t1, t2)
          case 'sub':
             return this.calc.sub(t1, t2)
